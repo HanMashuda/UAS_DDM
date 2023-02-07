@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background: #000 !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+section {
+  padding: 5rem 0 !important;
+}
+
+hr {
+  border-color: #434040 !important;
+}
+
+.bg-dark {
+  background: #000 !important;
+}
+
+/* Divider */
+.divider-custom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 8.5rem;
+  height: 0.25rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  border-color: #fff;
+}
+
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 1rem;
+}
+
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 1rem;
+}
+
+.divider-custom .divider-custom-icon {
+  width: 1rem;
+  height: 1rem;
+  color: #fff;
+  font-size: 2rem;
+  border: .8rem solid #fff;
+  border-radius: 50%;
+}
+
+.divider-custom.divider-light .divider-custom-line {
+  background-color: #fff;
+}
+
+.divider-custom.divider-light .divider-custom-icon {
+  color: #fff;
+}
+
+.popup-box .box {
+  position: relative !important;
+  width: 150px !important;
+  background: #fff !important;
+  margin-bottom: 1rem !important;
+  padding: 1rem 0 !important;
+  text-align: center;
+  border-radius: .5rem !important;
+  cursor: pointer;
+  border-bottom: .3rem solid transparent !important;
+}
+
+/* Skill Box */
+.skillBox {
+  width: 100% !important;
+  /* margin: 0 1rem !important; */
+}
+
+.skillBox h2 {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.skillBox p,
+.skillBox span {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+
+.skillBox .skill {
+  background-color: #262626;
+  margin-bottom: 20px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.skillBox .skill .skill-level {
+  background-color: #0984e3 !important;
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+}
+
+/* Stage */
+.my-stage ul li:hover,
+.contact ul li:hover {
+  background: #f1f2f6 !important;
+}
+
+.cardTicket {
+  cursor: pointer;
+}
+
+.boxTicket {
+  width: 55px !important;
+  height: 55px !important;
+}
+
+.ticket1 {
+  background: #fff;
+}
+
+.ticket2 {
+  background: #fdd700;
+}
+
+.ticket3 {
+  background: #ccc;
+}
+
+.ticket4 {
+  background: #deb887;
+}
+
+.ticket5 {
+  background: #ff4500;
+}
+
+.ticket6 {
+  background: #c865c8;
+}
+
+.ticket7 {
+  background: #ffc0cb;
+}
+
+.ticket8 {
+  background: #d44;
+}
+
+.ticket9 {
+  background: #2169f3;
+}
+
+.ticket10 {
+  background: #ffff00;
+}
+
+.ticket11 {
+  background: #00ff00;
+}
+
+.cardTicket:hover {
+  background: #4d4d4d !important;
+}
+
+/* My Work */
+.w3-half .grid-box img {
+  width: 100% !important;
+  transition: .3s linear !important;
+}
+
+.w3-row-padding {
+  margin: 0 !important;
+}
+
+/* Contact */
+.contact-icon {
+  font-size: 1.7rem !important;
+}
+
+.contact-icon .icon {
+  margin-right: .7rem !important;
+  text-decoration: none !important;
+}
+
+.contact-icon .icon1:hover {
+  color: #4169e1 !important;
+}
+
+.contact-icon .icon2:hover {
+  color: #d44 !important;
+}
+
+.contact-icon .icon3:hover {
+  color: #fdd700 !important;
+}
+
+.contact-icon .icon4:hover {
+  color: #e84118 !important;
+}
+
+.contact-icon .icon5:hover {
+  color: #0984e3 !important;
+}
+
+.contact-icon .icon6:hover {
+  color: #40739e !important;
+}
+
+/* Icon Footer */
+.iconFoot {
+  font-size: 2rem !important;
+}
+
+/* Media */
+@media (min-width: 991px) {
+  .navbar li {
+    border: 2px solid #000;
+  }
+  
+  .navbar li:hover {
+    border: 2px solid #0984e3;
+  }
+
+  .box {
+    border: .3rem solid transparent !important;
+  }
+
+  .box:hover {
+    top: .5rem !important;
+    border-bottom: .3rem solid !important;
+    border-bottom-color: #0984e3 !important;
+  }
+
+  /* My Work */
+  .w3-half .grid-box img:hover {
+    transform: scale(0.95);
+  }
+
+  .w3-row-padding {
+    margin: 0 7rem !important;
+  }
+}
+
+@media (max-width: 586px) {
+  .img {
+    width: 300px !important;
+  }
+
+  .navbar-nav li {
+    margin-bottom: .5rem !important;
+  }
+
+  .popup-box .box {
+    border-bottom: .3rem solid #0984e3 !important;
+  }
+
+  .fa {
+    margin-right: 0.7rem !important;
+  }
+
+  .imgStage {
+    width: 100% !important;
+  }
+}
